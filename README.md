@@ -1,8 +1,8 @@
-# CT-Exposer Enhanced - Multi-Source Subdomain Enumeration Tool
+# CTLogExposer Enhanced - Multi-Source Subdomain Enumeration Tool
 
 ## 📋 Overview
 
-CT-Exposer Enhanced is a powerful subdomain enumeration tool that aggregates data from multiple Certificate Transparency (CT) logs and subdomain intelligence sources. Unlike traditional CT log scrapers that rely on a single source, this tool queries 11+ different APIs and databases to provide comprehensive subdomain discovery with intelligent deduplication and DNS resolution.
+CTLogExposer Enhanced is a powerful subdomain enumeration tool that aggregates data from multiple Certificate Transparency (CT) logs and subdomain intelligence sources. Unlike traditional CT log scrapers that rely on a single source, this tool queries 11+ different APIs and databases to provide comprehensive subdomain discovery with intelligent deduplication and DNS resolution.
 
 ## 🎯 Purpose
 
@@ -12,7 +12,7 @@ Bug bounty hunters, penetration testers, and security researchers need comprehen
 - API failures or downtime
 - Regional certificate authorities not indexed by all sources
 
-CT-Exposer Enhanced solves this by:
+CTLogExposer Enhanced solves this by:
 1. **Querying multiple sources simultaneously** - Maximizes subdomain discovery
 2. **Intelligent error handling** - Continues even if sources fail
 3. **Automatic deduplication** - Removes duplicates across all sources
@@ -216,7 +216,7 @@ Run daily to detect new subdomains as they're created (great for CI/CD pipelines
 
 ## 📝 Integration with Security Pipeline
 
-CT-Exposer Enhanced integrates seamlessly with other security tools:
+CTLogExposer Enhanced integrates seamlessly with other security tools:
 
 ```bash
 # Step 1: Subdomain enumeration
