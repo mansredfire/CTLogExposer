@@ -1,4 +1,4 @@
-# CTLogExposer Enhanced - Multi-Source Subdomain Enumeration Tool
+# CTLogExposer - Multi-Source Subdomain Enumeration Tool
 
 ## 📋 Overview
 
